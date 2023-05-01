@@ -515,6 +515,18 @@ test = sup3[validate_end_index:]
 # In[72]:
 
 
+# For the number of products sold:
+# H0: The amount sold will decrease.
+# Ha: The amount sold will remain the same.
+
+# For revenue generated:
+# H0: The amount generated will increase.
+# Ha: The amount generated will remain about the same.
+
+
+# In[73]:
+
+
 for col in train.columns:
     plt.plot(train[col])
     plt.plot(validate[col])
@@ -524,26 +536,37 @@ for col in train.columns:
     plt.show()
 
 
-# In[73]:
+# In[74]:
+
+
+# H0: The Defect Rate improves
+# Ha: The rate is roughly the same
+
+
+# In[75]:
 
 
 plt.plot(train['Defect rates'])
 plt.plot(validate['Defect rates'])
 plt.plot(test['Defect rates'])
+plt.xlabel('Defect Rate')
+plt.ylabel('Percent Chance')
 plt.show()
 
 
-# In[74]:
+# In[76]:
 
 
 def defect_predict():
     plt.plot(train['Defect rates'])
     plt.plot(validate['Defect rates'])
     plt.plot(test['Defect rates'])
+    plt.xlabel('Defect Rate')
+    plt.ylabel('Percent Chance')
     plt.show()
 
 
-# In[75]:
+# In[77]:
 
 
 #Supplier 3 makes the best products at a cheap price. They make great cosmetics and can be sold for a large profit
