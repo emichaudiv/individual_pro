@@ -1,5 +1,5 @@
 # Project Description:
-I wanted to find the best supplier to work with, and I will figure out what factors would help determine which is the best Supplier to work with, what is their most Popular product, what product could be better and is there a way to make more of the least purchase product and still be profitable? I will use some modeling to compare and contrast between the five suppliers, find the best one, and use mchine learning to figure out what is potentially the most proffitable product as well as find a way to take their lowest selling product and make it prodcue more revenue.
+I wanted to find the best supplier to work with, and I will figure out what factors would help determine which is the best Supplier to work with, what is their most Popular product, what product could be better and is there a way to make more of the least purchase product and still be profitable? I will use some modeling to compare and contrast between the five suppliers, find the best one, and use machine learning to figure out what is potentially the most profitable product as well as find a way to take their lowest selling product and make it prodcue more revenue.
 
 # The Plan:
 Find data to work with, thread a story after a clean up, find conclusions after your findings.
