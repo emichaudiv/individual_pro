@@ -5,10 +5,10 @@ I wanted to find the best supplier to work with, and I will figure out what fact
 Find data to work with, thread a story after a clean up, find conclusions after your findings.
 
 # Data Dictionary:
-Supplier: the one who creates the products
-Costs: The total amount of costs from materials, producing, labor, and shipping
-Revenue: The total revenue a product generates at a certain time.
-Defect Rate: The likelyhood of a product defecting by a certain percentage (in this cae a low percentage is desireable).
+Supplier: the one who creates the products;string
+Costs: The total amount of costs from materials, producing, labor, and shipping;int
+Revenue: The total revenue a product generates at a certain time;int
+Defect Rate: The likelyhood of a product defecting by a certain percentage (in this cae a low percentage is desireable);int
 
 
 # Reproduction:
